@@ -1,0 +1,136 @@
+@font-face{
+    font-family: franklein;
+    src: url(../../font/franklein/frankleinbook.ttf);
+}
+
+@font-face{
+    font-family: roboto-thin;
+    src: url(../../font/roboto/Roboto-Thin.ttf);
+}
+
+
+
+
+.about-me-cont{
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid violet ; */
+}
+
+.about-me-pic-cont{
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.particle-cont{
+    height: 90vh;
+}
+
+.about-me-pic{
+    height: 350px;
+    margin-top: ;
+}
+
+.about-me-head-txt{
+    font-family: roboto-thin;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.about-me-sub-txt{
+    font-family: roboto-thin;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chart-comp{
+    height: 300px !important;
+    
+}
+
+.chart-cont{
+    /* border: 1px solid black; */
+    height: ;
+}
+
+/* .chart-canvas{
+    transform: scale(0.7);
+} */
+
+.chart-outter-cont{
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    border-bottom: 1px solid lightgray;
+    height: 600px;
+}
+
+.skill-list{
+    list-style: none;
+}
+
+.skill-list > li {
+    font-family: roboto-thin;
+    font-size: 28px;
+    font-weight: ;
+}
+
+.random-facts-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wraith-pic{
+    height: 590px;
+}
+
+.random-fact-div{
+    /* border: 1px solid red; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-fact-div > div > h4{
+    font-family: roboto-thin;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.random-fact-list{
+    list-style: none;
+}
+
+.random-fact-list > li > p{
+    font-family: roboto-thin;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.feature-header-txt{
+    font-family: roboto-thin;
+}
+
+.features-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid blue; */
+    height: 400px;
+}
+
+.feature-img{
+    height: 290px;
+}

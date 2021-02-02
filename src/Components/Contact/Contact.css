@@ -1,0 +1,15 @@
+.contact-outter-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.contact-cont{
+    height: 550px;
+    background-color: blue;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+

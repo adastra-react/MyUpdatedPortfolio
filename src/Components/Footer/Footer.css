@@ -1,0 +1,33 @@
+@font-face{
+    font-family: roboto-thin;
+    src: url(../../font/roboto/Roboto-Thin.ttf);
+}
+
+
+.footer{
+    /* background-image: url(../../images/my-portfolio-footer-bg.svg); */
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+ 
+}
+
+.footer > div > h2{
+    font-family: roboto-thin;
+    color: white;
+    font-weight: bolder;
+}
+
+.footer > div{
+    background-color: black;
+    width: 70%;
+    display: grid;
+    place-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
